@@ -1,0 +1,46 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.box {
+    background-color: white;
+    border: 2px solid black;
+    margin: 30px 100px 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    height : 150px;
+}
+.box button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.box p{
+    margin-top: 20px;
+}
+.box button:hover {
+    cursor: pointer;
+}
+#btn1{
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+}
+#btn2{
+    background-color: orange;
+    color: white;
+}
+#btn3{
+    background-color: purple;
+    color: white;
+}
